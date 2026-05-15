@@ -106,8 +106,8 @@ window.TOMOS = [
   {
     "id": "tomo-14",
     "badge": "Tomo 14",
-    "title": "Tomo 14 — TRACCIÓN ELÉCTRICA avanzada",
-    "description": "Banco inicial ampliable de preguntas para el TOMO 14 TRACCIÓN ELÉCTRICA avanzada.",
+    "title": "Tomo 14 — tracción eléctrica avanzada",
+    "description": "Banco inicial ampliable de preguntas para el tomo 14 tracción eléctrica avanzada.",
     "file": "./tomos/tomo-14-traccion-electrica-avanzada.html",
     "questionCount": 100
   },
