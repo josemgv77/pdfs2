@@ -226,8 +226,8 @@ window.TOMOS = [
   {
     "id": "tomo-29",
     "badge": "Tomo 29",
-    "title": "Tomo 29 — covertidores y electronica de potencia",
-    "description": "Banco inicial ampliable de preguntas para el tomo 29 covertidores y electronica de potencia.",
+    "title": "Tomo 29 — convertidores y electronica de potencia",
+    "description": "Banco inicial ampliable de preguntas para el tomo 29 convertidores y electronica de potencia.",
     "file": "./tomos/tomo-29-covertidores-y-electronica-de-potencia.html",
     "questionCount": 100
   },
@@ -250,8 +250,8 @@ window.TOMOS = [
   {
     "id": "tomo-32",
     "badge": "Tomo 32",
-    "title": "Tomo 32 — climatizacion ferroviarria",
-    "description": "Banco inicial ampliable de preguntas para el tomo 32 climatizacion ferroviarria.",
+    "title": "Tomo 32 — climatizacion ferroviaria",
+    "description": "Banco inicial ampliable de preguntas para el tomo 32 climatizacion ferroviaria.",
     "file": "./tomos/tomo-32-climatizacion-ferroviarria.html",
     "questionCount": 100
   },
@@ -274,8 +274,8 @@ window.TOMOS = [
   {
     "id": "tomo-35",
     "badge": "Tomo 35",
-    "title": "Tomo 35 — interpretacion de sistenmas electricos",
-    "description": "Banco inicial ampliable de preguntas para el tomo 35 interpretacion de sistenmas electricos.",
+    "title": "Tomo 35 — interpretacion de sistemas electricos",
+    "description": "Banco inicial ampliable de preguntas para el tomo 35 interpretacion de sistemas electricos.",
     "file": "./tomos/tomo-35-interpretacion-de-sistenmas-electricos.html",
     "questionCount": 100
   },
@@ -298,8 +298,8 @@ window.TOMOS = [
   {
     "id": "tomo-38",
     "badge": "Tomo 38",
-    "title": "Tomo 38 — alta velecidad avanzada",
-    "description": "Banco inicial ampliable de preguntas para el tomo 38 alta velecidad avanzada.",
+    "title": "Tomo 38 — alta velocidad avanzada",
+    "description": "Banco inicial ampliable de preguntas para el tomo 38 alta velocidad avanzada.",
     "file": "./tomos/tomo-38-alta-velecidad-avanzada.html",
     "questionCount": 100
   },
