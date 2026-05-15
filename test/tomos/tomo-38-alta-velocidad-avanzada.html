@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tomo 38 — alta velocidad avanzada</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="layout">
+      <header class="header">
+        <h1 id="test-title">Tomo 38 — alta velocidad avanzada</h1>
+        <p id="test-description"></p>
+        <p class="note">Nota: cuando no se ha podido extraer el texto íntegro del PDF desde el entorno, este banco inicial de preguntas es ampliable y está generado a partir de la temática del tomo.</p>
+      </header>
+
+      <div class="content">
+        <div class="status" aria-live="polite">
+          <div class="status-item"><strong>Tomo:</strong> <span id="status-tomo">-</span></div>
+          <div class="status-item"><strong>Pregunta:</strong> <span id="status-question">1 / 100</span></div>
+          <div class="status-item"><strong>Respondidas:</strong> <span id="status-answered">0</span></div>
+        </div>
+
+        <section class="question" aria-labelledby="question-text">
+          <h2 id="question-text">Pregunta</h2>
+          <div id="options" class="options"></div>
+          <div id="feedback" class="feedback" aria-live="polite"></div>
+        </section>
+
+        <div class="controls">
+          <div class="controls-group">
+            <button id="prev-button" class="btn-secondary" type="button">Atrás</button>
+            <button id="next-button" class="btn-secondary" type="button">Siguiente</button>
+          </div>
+          <div class="controls-group">
+            <button id="reveal-button" class="btn-primary" type="button">Ver respuesta</button>
+            <button id="finish-button" class="btn-danger" type="button">Finalizar</button>
+          </div>
+        </div>
+
+        <section id="results" class="results" aria-live="polite">
+          <h2>Resultado del test</h2>
+          <p><strong>Aciertos:</strong> <span id="hits">0</span></p>
+          <p><strong>Falladas:</strong> <span id="errors">0</span></p>
+          <p><strong>Sin responder:</strong> <span id="blank">0</span></p>
+          <p><strong>Puntuación:</strong> <span id="score">0%</span></p>
+          <div class="actions">
+            <button id="repeat-failed-button" class="btn-primary" type="button">Repetir solo falladas</button>
+            <a class="back-link" href="../index.html">← Volver al índice</a>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <script src="../shared.js"></script>
+  <script src="../data/tomo-38-alta-velocidad-avanzada.js"></script>
+</body>
+</html>

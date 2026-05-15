@@ -3,166 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tests por tomo</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --bg: #0f172a;
-      --panel: #111827;
-      --card: #ffffff;
-      --text: #0f172a;
-      --muted: #475569;
-      --primary: #2563eb;
-      --primary-hover: #1d4ed8;
-      --border: #dbe2ea;
-      --success-bg: #dcfce7;
-      --success-text: #166534;
-      --error-bg: #fee2e2;
-      --error-text: #991b1b;
-      --warning-bg: #fef3c7;
-      --warning-text: #92400e;
-      --shadow: 0 10px 25px rgba(15, 23, 42, 0.10);
-    }
-
-    * { box-sizing: border-box; }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: linear-gradient(180deg, #e2e8f0 0%, #f8fafc 100%);
-      color: var(--text);
-      min-height: 100vh;
-    }
-
-    .container {
-      width: min(1100px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 32px 0 48px;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, var(--bg), #1e293b);
-      color: white;
-      border-radius: 20px;
-      padding: 32px;
-      box-shadow: var(--shadow);
-      margin-bottom: 24px;
-    }
-
-    .hero h1 {
-      margin: 0 0 12px;
-      font-size: clamp(28px, 4vw, 40px);
-    }
-
-    .hero p {
-      margin: 0;
-      color: #cbd5e1;
-      line-height: 1.6;
-      max-width: 800px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 18px;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 20px;
-      box-shadow: var(--shadow);
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .badge {
-      align-self: flex-start;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: #dbeafe;
-      color: #1d4ed8;
-      font-size: 12px;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-
-    .card h2 {
-      margin: 0;
-      font-size: 20px;
-    }
-
-    .meta {
-      color: var(--muted);
-      font-size: 14px;
-      line-height: 1.5;
-    }
-
-    .actions {
-      margin-top: auto;
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .button {
-      appearance: none;
-      border: 0;
-      border-radius: 10px;
-      padding: 12px 16px;
-      font-size: 14px;
-      font-weight: bold;
-      cursor: pointer;
-      transition: transform 0.15s ease, background 0.15s ease, opacity 0.15s ease;
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .button:hover { transform: translateY(-1px); }
-
-    .button.primary {
-      background: var(--primary);
-      color: white;
-    }
-
-    .button.primary:hover { background: var(--primary-hover); }
-
-    .button.secondary {
-      background: #e2e8f0;
-      color: #0f172a;
-    }
-
-    .footer-note {
-      margin-top: 24px;
-      color: var(--muted);
-      font-size: 14px;
-      text-align: center;
-    }
-  </style>
+  <title>Tests por tomo - PDFs2</title>
+  <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <main class="container">
     <section class="hero">
-      <h1>Tests por tomo</h1>
-      <p>
-        Selecciona un tomo para abrir su test. Cada tomo dispone de su propia página HTML y su propio
-        archivo JavaScript, con navegación entre preguntas, revisión de respuestas y finalización del test.
-      </p>
+      <h1>Tests por tomo (PDFs2)</h1>
+      <p>Selecciona un tomo para realizar su test individual. Cada tomo tiene su propio HTML y su propio JavaScript de datos.</p>
+      <p class="note">Nota: cuando no se ha podido extraer el texto íntegro del PDF desde el entorno, este banco inicial de preguntas es ampliable y está generado a partir de la temática del tomo.</p>
     </section>
 
     <section id="tomos-grid" class="grid" aria-label="Listado de tomos"></section>
-
-    <p class="footer-note">
-      Plantilla base generada para tests por tomo. Sustituye las preguntas de ejemplo por las reales extraídas de los PDF.
-    </p>
   </main>
 
   <script src="./tomos.js"></script>
-  <script src="./app.js"></script>
+  <script src="./shared.js"></script>
 </body>
 </html>
