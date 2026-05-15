@@ -58,7 +58,7 @@ window.TOMOS = [
   {
     "id": "tomo-8",
     "badge": "Tomo 8",
-    "title": "Tomo 8 — preguntas ultra dificiles",
+    "title": "Tomo 8 — preguntas ultra difíciles",
     "description": "Banco inicial ampliable de preguntas para el tomo 8  preguntas ultra dificiles.",
     "file": "./tomos/tomo-8-preguntas-ultra-dificiles.html",
     "questionCount": 100
@@ -228,7 +228,7 @@ window.TOMOS = [
     "badge": "Tomo 29",
     "title": "Tomo 29 — convertidores y electronica de potencia",
     "description": "Banco inicial ampliable de preguntas para el tomo 29 convertidores y electronica de potencia.",
-    "file": "./tomos/tomo-29-covertidores-y-electronica-de-potencia.html",
+    "file": "./tomos/tomo-29-convertidores-y-electronica-de-potencia.html",
     "questionCount": 100
   },
   {
@@ -252,7 +252,7 @@ window.TOMOS = [
     "badge": "Tomo 32",
     "title": "Tomo 32 — climatizacion ferroviaria",
     "description": "Banco inicial ampliable de preguntas para el tomo 32 climatizacion ferroviaria.",
-    "file": "./tomos/tomo-32-climatizacion-ferroviarria.html",
+    "file": "./tomos/tomo-32-climatizacion-ferroviaria.html",
     "questionCount": 100
   },
   {
@@ -276,7 +276,7 @@ window.TOMOS = [
     "badge": "Tomo 35",
     "title": "Tomo 35 — interpretacion de sistemas electricos",
     "description": "Banco inicial ampliable de preguntas para el tomo 35 interpretacion de sistemas electricos.",
-    "file": "./tomos/tomo-35-interpretacion-de-sistenmas-electricos.html",
+    "file": "./tomos/tomo-35-interpretacion-de-sistemas-electricos.html",
     "questionCount": 100
   },
   {
@@ -300,7 +300,7 @@ window.TOMOS = [
     "badge": "Tomo 38",
     "title": "Tomo 38 — alta velocidad avanzada",
     "description": "Banco inicial ampliable de preguntas para el tomo 38 alta velocidad avanzada.",
-    "file": "./tomos/tomo-38-alta-velecidad-avanzada.html",
+    "file": "./tomos/tomo-38-alta-velocidad-avanzada.html",
     "questionCount": 100
   },
   {
