@@ -1,10 +1,1207 @@
 window.TOMO_DATA = {
-  tomoId: 'tomo-21',
-  title: "Tomo 21 — examenes aleatorios",
-  description: "Banco inicial ampliable generado desde la temática del tomo al no disponer de extracción completa del PDF en el entorno de ejecución.",
-  questions: window.createSeedQuestions({
-    title: "Tomo 21 — examenes aleatorios",
-    themes: ["examenes aleatorios", "fundamentos de examenes aleatorios", "diagnóstico de examenes aleatorios", "mantenimiento de examenes aleatorios", "seguridad en examenes aleatorios", "operación de examenes aleatorios", "averías en examenes aleatorios", "pruebas funcionales de examenes aleatorios", "interpretación técnica de examenes aleatorios", "mejora continua en examenes aleatorios"],
-    count: 100
-  })
+  "tomoId": "tomo-21",
+  "title": "Tomo 21 — examenes aleatorios",
+  "description": "Banco inicial ampliable generado desde la temática del tomo al no disponer de extracción completa del PDF en el entorno de ejecución.",
+  "questions": [
+    {
+      "id": "q-1",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en examenes aleatorios."
+    },
+    {
+      "id": "q-2",
+      "text": "Ante una incidencia relacionada con fundamentos de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en fundamentos de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-3",
+      "text": "¿Qué debe quedar documentado al intervenir sobre diagnóstico de examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de diagnóstico de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-4",
+      "text": "Respecto a seguridad en mantenimiento de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular mantenimiento de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-5",
+      "text": "¿Cómo se evita un falso positivo al evaluar seguridad en examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de seguridad en examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-6",
+      "text": "Tras una corrección en operación de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de operación de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-7",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar averías en examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de averías en examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-8",
+      "text": "En operación y mantenimiento de pruebas funcionales de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en pruebas funcionales de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-9",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de interpretación técnica de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en interpretación técnica de examenes aleatorios."
+    },
+    {
+      "id": "q-10",
+      "text": "Ante una incidencia relacionada con mejora continua en examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en mejora continua en examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-11",
+      "text": "¿Qué debe quedar documentado al intervenir sobre examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-12",
+      "text": "Respecto a seguridad en fundamentos de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular fundamentos de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-13",
+      "text": "¿Cómo se evita un falso positivo al evaluar diagnóstico de examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de diagnóstico de examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-14",
+      "text": "Tras una corrección en mantenimiento de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de mantenimiento de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-15",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar seguridad en examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de seguridad en examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-16",
+      "text": "En operación y mantenimiento de operación de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en operación de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-17",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar averías en examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de averías en examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en averías en examenes aleatorios."
+    },
+    {
+      "id": "q-18",
+      "text": "Ante una incidencia relacionada con pruebas funcionales de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en pruebas funcionales de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-19",
+      "text": "¿Qué debe quedar documentado al intervenir sobre interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de interpretación técnica de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-20",
+      "text": "Respecto a seguridad en mejora continua en examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular mejora continua en examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-21",
+      "text": "¿Cómo se evita un falso positivo al evaluar examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-22",
+      "text": "Tras una corrección en fundamentos de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de fundamentos de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-23",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar diagnóstico de examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de diagnóstico de examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-24",
+      "text": "En operación y mantenimiento de mantenimiento de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en mantenimiento de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-25",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar seguridad en examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de seguridad en examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en seguridad en examenes aleatorios."
+    },
+    {
+      "id": "q-26",
+      "text": "Ante una incidencia relacionada con operación de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en operación de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-27",
+      "text": "¿Qué debe quedar documentado al intervenir sobre averías en examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de averías en examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-28",
+      "text": "Respecto a seguridad en pruebas funcionales de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular pruebas funcionales de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-29",
+      "text": "¿Cómo se evita un falso positivo al evaluar interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de interpretación técnica de examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-30",
+      "text": "Tras una corrección en mejora continua en examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de mejora continua en examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-31",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-32",
+      "text": "En operación y mantenimiento de fundamentos de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en fundamentos de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-33",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar diagnóstico de examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de diagnóstico de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en diagnóstico de examenes aleatorios."
+    },
+    {
+      "id": "q-34",
+      "text": "Ante una incidencia relacionada con mantenimiento de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en mantenimiento de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-35",
+      "text": "¿Qué debe quedar documentado al intervenir sobre seguridad en examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de seguridad en examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-36",
+      "text": "Respecto a seguridad en operación de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular operación de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-37",
+      "text": "¿Cómo se evita un falso positivo al evaluar averías en examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de averías en examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-38",
+      "text": "Tras una corrección en pruebas funcionales de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de pruebas funcionales de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-39",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de interpretación técnica de examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-40",
+      "text": "En operación y mantenimiento de mejora continua en examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en mejora continua en examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-41",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en examenes aleatorios."
+    },
+    {
+      "id": "q-42",
+      "text": "Ante una incidencia relacionada con fundamentos de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en fundamentos de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-43",
+      "text": "¿Qué debe quedar documentado al intervenir sobre diagnóstico de examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de diagnóstico de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-44",
+      "text": "Respecto a seguridad en mantenimiento de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular mantenimiento de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-45",
+      "text": "¿Cómo se evita un falso positivo al evaluar seguridad en examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de seguridad en examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-46",
+      "text": "Tras una corrección en operación de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de operación de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-47",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar averías en examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de averías en examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-48",
+      "text": "En operación y mantenimiento de pruebas funcionales de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en pruebas funcionales de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-49",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de interpretación técnica de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en interpretación técnica de examenes aleatorios."
+    },
+    {
+      "id": "q-50",
+      "text": "Ante una incidencia relacionada con mejora continua en examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en mejora continua en examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-51",
+      "text": "¿Qué debe quedar documentado al intervenir sobre examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-52",
+      "text": "Respecto a seguridad en fundamentos de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular fundamentos de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-53",
+      "text": "¿Cómo se evita un falso positivo al evaluar diagnóstico de examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de diagnóstico de examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-54",
+      "text": "Tras una corrección en mantenimiento de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de mantenimiento de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-55",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar seguridad en examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de seguridad en examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-56",
+      "text": "En operación y mantenimiento de operación de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en operación de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-57",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar averías en examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de averías en examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en averías en examenes aleatorios."
+    },
+    {
+      "id": "q-58",
+      "text": "Ante una incidencia relacionada con pruebas funcionales de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en pruebas funcionales de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-59",
+      "text": "¿Qué debe quedar documentado al intervenir sobre interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de interpretación técnica de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-60",
+      "text": "Respecto a seguridad en mejora continua en examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular mejora continua en examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-61",
+      "text": "¿Cómo se evita un falso positivo al evaluar examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-62",
+      "text": "Tras una corrección en fundamentos de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de fundamentos de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-63",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar diagnóstico de examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de diagnóstico de examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-64",
+      "text": "En operación y mantenimiento de mantenimiento de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en mantenimiento de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-65",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar seguridad en examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de seguridad en examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en seguridad en examenes aleatorios."
+    },
+    {
+      "id": "q-66",
+      "text": "Ante una incidencia relacionada con operación de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en operación de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-67",
+      "text": "¿Qué debe quedar documentado al intervenir sobre averías en examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de averías en examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-68",
+      "text": "Respecto a seguridad en pruebas funcionales de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular pruebas funcionales de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-69",
+      "text": "¿Cómo se evita un falso positivo al evaluar interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de interpretación técnica de examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-70",
+      "text": "Tras una corrección en mejora continua en examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de mejora continua en examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-71",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-72",
+      "text": "En operación y mantenimiento de fundamentos de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en fundamentos de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-73",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar diagnóstico de examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de diagnóstico de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en diagnóstico de examenes aleatorios."
+    },
+    {
+      "id": "q-74",
+      "text": "Ante una incidencia relacionada con mantenimiento de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en mantenimiento de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-75",
+      "text": "¿Qué debe quedar documentado al intervenir sobre seguridad en examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de seguridad en examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-76",
+      "text": "Respecto a seguridad en operación de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular operación de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-77",
+      "text": "¿Cómo se evita un falso positivo al evaluar averías en examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de averías en examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-78",
+      "text": "Tras una corrección en pruebas funcionales de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de pruebas funcionales de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-79",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de interpretación técnica de examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-80",
+      "text": "En operación y mantenimiento de mejora continua en examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en mejora continua en examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-81",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en examenes aleatorios."
+    },
+    {
+      "id": "q-82",
+      "text": "Ante una incidencia relacionada con fundamentos de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en fundamentos de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-83",
+      "text": "¿Qué debe quedar documentado al intervenir sobre diagnóstico de examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de diagnóstico de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-84",
+      "text": "Respecto a seguridad en mantenimiento de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular mantenimiento de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-85",
+      "text": "¿Cómo se evita un falso positivo al evaluar seguridad en examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de seguridad en examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-86",
+      "text": "Tras una corrección en operación de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de operación de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-87",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar averías en examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de averías en examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-88",
+      "text": "En operación y mantenimiento de pruebas funcionales de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en pruebas funcionales de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-89",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de interpretación técnica de examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en interpretación técnica de examenes aleatorios."
+    },
+    {
+      "id": "q-90",
+      "text": "Ante una incidencia relacionada con mejora continua en examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en mejora continua en examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-91",
+      "text": "¿Qué debe quedar documentado al intervenir sobre examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-92",
+      "text": "Respecto a seguridad en fundamentos de examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular fundamentos de examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    },
+    {
+      "id": "q-93",
+      "text": "¿Cómo se evita un falso positivo al evaluar diagnóstico de examenes aleatorios?",
+      "options": [
+        "Correlacionar datos de prueba con comportamiento observado de diagnóstico de examenes aleatorios",
+        "Elegir la causa por la avería más frecuente sin evidencias",
+        "Cambiar el elemento más accesible sin contraste",
+        "Cerrar incidencia si el fallo no aparece al primer intento"
+      ],
+      "correctIndex": 0,
+      "explanation": "Relacionar medidas y síntomas evita confirmar hipótesis erróneas."
+    },
+    {
+      "id": "q-94",
+      "text": "Tras una corrección en mantenimiento de examenes aleatorios, ¿qué confirma que el trabajo está bien cerrado?",
+      "options": [
+        "Realizar prueba funcional completa y criterios de aceptación específicos de mantenimiento de examenes aleatorios",
+        "Finalizar al desaparecer un síntoma puntual",
+        "Aceptar la reparación sin escenario exigente",
+        "Posponer validación para una revisión futura"
+      ],
+      "correctIndex": 0,
+      "explanation": "La prueba funcional completa valida la solución en condiciones representativas."
+    },
+    {
+      "id": "q-95",
+      "text": "¿Qué criterio técnico aporta mayor fiabilidad al analizar seguridad en examenes aleatorios?",
+      "options": [
+        "Comparar parámetros nominales y reales de seguridad en examenes aleatorios para detectar desviaciones",
+        "Evaluar solo por sensación subjetiva del operador",
+        "Sustituir piezas por antigüedad sin diagnóstico",
+        "Interpretar cualquier ruido como fallo crítico"
+      ],
+      "correctIndex": 0,
+      "explanation": "La comparación nominal/real aporta criterio objetivo para decidir acciones."
+    },
+    {
+      "id": "q-96",
+      "text": "En operación y mantenimiento de operación de examenes aleatorios, ¿qué principio debe prevalecer?",
+      "options": [
+        "Priorizar continuidad segura del servicio sin ocultar incidencias en operación de examenes aleatorios",
+        "Ocultar anomalías para evitar retrasos",
+        "Forzar operación fuera de límites previstos",
+        "Ignorar incidencias intermitentes por baja frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La continuidad de servicio siempre debe mantenerse bajo márgenes de seguridad y transparencia técnica."
+    },
+    {
+      "id": "q-97",
+      "text": "En Tomo 21 — examenes aleatorios, ¿cuál es el enfoque más sólido para trabajar averías en examenes aleatorios?",
+      "options": [
+        "Aplicar una revisión sistemática de averías en examenes aleatorios siguiendo seguridad, diagnóstico y verificación final",
+        "Actuar sin checklist técnico y sin registrar resultados",
+        "Sustituir componentes sin comprobar causa raíz",
+        "Ignorar pruebas funcionales antes de cerrar intervención"
+      ],
+      "correctIndex": 0,
+      "explanation": "El enfoque correcto combina método, seguridad y validación final para evitar errores recurrentes en averías en examenes aleatorios."
+    },
+    {
+      "id": "q-98",
+      "text": "Ante una incidencia relacionada con pruebas funcionales de examenes aleatorios, ¿qué secuencia mejora el diagnóstico?",
+      "options": [
+        "Verificar síntomas, hipótesis, medida y contraste antes de decidir intervención en pruebas funcionales de examenes aleatorios",
+        "Confiar solo en una impresión inicial sin medir",
+        "Corregir primero y diagnosticar después",
+        "Descartar documentación técnica del sistema"
+      ],
+      "correctIndex": 0,
+      "explanation": "Diagnosticar por fases reduce fallos de interpretación y evita sustituciones innecesarias."
+    },
+    {
+      "id": "q-99",
+      "text": "¿Qué debe quedar documentado al intervenir sobre interpretación técnica de examenes aleatorios?",
+      "options": [
+        "Comprobar estado inicial, condiciones de operación y criterios de aceptación de interpretación técnica de examenes aleatorios",
+        "Realizar ajustes sin referencia al estado inicial",
+        "Dar por válida la reparación sin pruebas de carga",
+        "Priorizar velocidad sobre trazabilidad técnica"
+      ],
+      "correctIndex": 0,
+      "explanation": "Registrar estado inicial y validación final permite trazabilidad y mejora continua."
+    },
+    {
+      "id": "q-100",
+      "text": "Respecto a seguridad en mejora continua en examenes aleatorios, ¿qué práctica es imprescindible?",
+      "options": [
+        "Asegurar aislamiento de riesgos y comunicación operativa antes de manipular mejora continua en examenes aleatorios",
+        "Manipular sin consignación cuando el tiempo es limitado",
+        "Trabajar en solitario sin informar al equipo",
+        "Saltar señalización de seguridad por rutina"
+      ],
+      "correctIndex": 0,
+      "explanation": "La seguridad operacional requiere consignación, coordinación y control de riesgos en todo momento."
+    }
+  ]
 };
